@@ -1,0 +1,340 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(19, 5, 55);
+}
+
+.logo{
+    font-style: italic;
+    font-size: 25px;
+    padding: 10px;
+    color: aliceblue;
+}
+.logo span{
+    color: rgb(178, 125, 228);
+    font-style: bold;
+    font-weight: lighter;
+    padding: 10px;
+}
+header  ul li{
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+header ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500px;  
+    color: rgb(180, 114, 242);
+}
+
+header ul li :hover{
+    background-color: rgba(124, 11, 229, 0.845);
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+
+header ul li:hover a {
+    color: aliceblue;
+    font-weight: 900;
+}
+
+header button{
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    color: blueviolet;
+}
+header ul li:hover button {
+    color: white;
+    font-weight: 900;
+}
+
+.join .btn2,
+.join .btn1{
+    background-color: rgb(3, 3, 138);
+    color: aliceblue
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 50px;
+    background-color: rgb(5, 2, 46) ;
+}
+.herocontent {
+    background-color: transparent;
+    width: 600px;
+    text-align: center;
+    padding: 35px 40px;
+    color: aliceblue;
+}
+.herocontent h4{
+    font-size: 20px;
+    color: rgb(179, 11, 216);
+    padding: 10px;
+}
+.herocontent h1{
+    font-size: 46px;
+    padding: 10px;
+}
+.herocontent p{
+    font-size: 14px;
+    padding: 10px;
+}
+.btns button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.btns button:nth-child(1){
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+}
+.btns button:nth-child(2){
+    background-color: blueviolet;
+    color:white;
+    font-size: 500;
+    border: 5px double rgb(182, 113, 247);
+}
+.boxes{
+    background-color: aliceblue;
+    padding: 20px 30px;
+    margin: 10px 0px;
+    width:  300px;
+}
+.icons{
+    background-color: brown;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 40px;
+    text-align: center;
+}
+.boxes h3{
+    font-size: 22px;
+    padding: 10px;
+}
+.boxes .line{
+    border: 5px solid red;
+    width: 30px;
+    margin: 5px 15px;
+}
+.boxes p{
+    padding: 10px;
+    font-size: 12px;
+}
+.mainbox,.secondbox{
+    padding: 70px 50px;
+    background-color: rgb(6, 3, 44) !important ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainbox :nth-child(3){
+    background-color: aqua;
+}
+
+.profilesec,.secondbox{
+    padding: 70px 50px;
+    background-color: rgb(87, 87, 244);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profileleft {
+    /* background-color: black; */
+    padding: 30px 20px;
+    margin: 10px;
+    width: 400px;
+}
+.profileleft h4{
+    color: rgb(1, 1, 33);
+    padding: 10px;
+    font-size: 16px;
+}
+
+.profileleft h1{
+    padding: 10px;
+    font-size: 42px;
+}
+.profileleft p{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.btnspro button{
+    padding: 15px 30px;
+    margin: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+}
+.profileleft button:nth-child(1){
+    background-color: rgb(9, 168, 236);
+    color: white;
+}
+.btnspro button:nth-child(2){
+    background-color: transparent;
+    color: aqua;
+    border: 2px double aqua;
+}
+.profileright{
+    /* background-color: rgb(237, 235, 235); */
+    width: 600px;
+    padding: 30px 20px;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+
+}
+.profileright img{
+    width: 70%;
+    padding: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 10px 10px 10px 10px white;
+}
+.boxlines{
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    position: absolute;
+    left: 30%;
+    top: 70%;
+}
+.lines{
+    border: 5px solid red;
+    border-radius: 10px;
+    margin: 10px;
+}
+.boxlines :nth-child(1){
+    border: 5px solid aqua;
+    width: 80px;
+}
+.boxlines :nth-child(2){
+    border: 5px solid orange;
+    width: 100px;
+}.boxlines :nth-child(3){
+    border: 5px solid purple;
+    width: 50px;
+}.boxlines :nth-child(4){
+    border: 5px solid red;
+    width: 60px;
+}
+.procount{
+    background-color: #f51159;
+    color: black;
+    width: 118px;
+    padding: 1px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+}
+.secondbox{
+    background-color: white !important;
+    position: relative;
+
+}
+.colorbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.boxes{
+    margin: 40px;
+    background-color: white;
+    color: black;
+}
+footer {
+    background-color: black;
+    padding: 30px 50px;
+    margin: 180px 0 0 0;
+}
+.new{
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+   
+}
+
+.two p{
+    
+    width: 50%;
+    margin: 10px 260px;    
+}
+.symbols i{
+    border: 1px solid white;
+    color: white;
+    margin: 5px;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    padding: 0 4px;
+    
+}
+
+
+
+
+@media(min-width: 320px) and (max-width:480px){
+    header{
+        display: block;
+        background-color: aliceblue;
+    }
+    header ul li{
+        display: block;
+    }
+    .menus {
+        padding: 20px 10px;
+    }
+    .join button{
+        width: 100%;
+    }
+
+    .hero{
+        padding: 70px 0px;
+    }
+    .herocontent{
+        padding: 10px;
+        width: 100%;
+    }   
+    .herocontent h1{
+        font-size: 30px;
+    }
+    .btns button{
+        width: 100%;
+        margin: 10px;
+    }
+    .mainbox{
+        display: block;
+        padding: 70px 0;
+
+    }
+    .boxes{
+        margin: 10px 10px;
+        width: 100%;
+
+    }
+    .profilesec{
+        display: block;
+        
+    }
+    
+}
